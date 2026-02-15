@@ -41,6 +41,8 @@ like electricity usage, vehicle distance, and air quality.
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 
+![Profile Views](https://komarev.com/ghpvc/?username=vaibhavi7029-a11y&color=blue)
+
 
 ## 📊 GitHub Stats
 
