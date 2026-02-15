@@ -35,7 +35,8 @@ like electricity usage, vehicle distance, and air quality.
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhavi7029-a11y&show_icons=true&count_private=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=vaibhavi7029-a11y&show_icons=true&theme=tokyonight)
+
 
 ## 📫 Connect With Me
 LinkedIn: https://www.linkedin.com/in/vaibhavi-sutar -720060380
