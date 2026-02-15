@@ -15,5 +15,25 @@
 ## 🛠 Skills
 Python | Machine Learning | IoT | Streamlit | Data Analysis  
 
+🌍 AI Carbon Emission Prediction System
+
+This project uses multiple IoT sensors to collect real-time data 
+like electricity usage, vehicle distance, and air quality.
+
+🔹 Technologies Used:
+- Python
+- Machine Learning
+- Streamlit
+- IoT Sensors
+- GitHub
+
+🔹 Features:
+- Real-time carbon tracking
+- AI-based emission prediction
+- Smart alert system
+- Live dashboard
+
+  
 ## 📫 Connect With Me
 LinkedIn: 
+
