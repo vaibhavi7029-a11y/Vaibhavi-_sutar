@@ -33,7 +33,9 @@ like electricity usage, vehicle distance, and air quality.
 - Smart alert system
 - Live dashboard
 
-  
+  ## 📊 GitHub Stats
+![Vaibhavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=vaibhavi7029-a11y&show_icons=true&theme=radical)
+
 ## 📫 Connect With Me
 LinkedIn: 
 
