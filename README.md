@@ -37,5 +37,5 @@ like electricity usage, vehicle distance, and air quality.
 ![Vaibhavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=vaibhavi7029-a11y&show_icons=true&theme=radical)
 
 ## 📫 Connect With Me
-LinkedIn: 
+LinkedIn: https://www.linkedin.com/in/vaibhavi-sutar -720060380
 
