@@ -106,6 +106,16 @@ button:hover {
 <footer>
     <p>© 2026 Vaibhavi Sutar | Built with ❤️</p>
 </footer>
-
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+    
 </body>
 </html>
