@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+eee<!DOCTYPE html>
 <html>
 <head>
     <title>Vaibhavi Sutar | AIML Portfolio</title>
@@ -17,8 +17,21 @@
             padding: 60px;
         }
 
-        h1 {
-            font-size: 40px;
+    <h1 id="auto-text"></h1>
+<script>
+const text = "Hi, I'm Vaibhavi Sutar 👩‍💻";
+let idx = 0;
+
+function typeWriter() {
+  if (idx < text.length) {
+    document.getElementById("auto-text").innerHTML += text.charAt(idx);
+    idx++;
+    setTimeout(typeWriter, 80);
+  }
+}
+typeWriter();
+</script>
+        
         }
 
     button {
