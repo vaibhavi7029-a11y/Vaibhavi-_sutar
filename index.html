@@ -1,146 +1,49 @@
-eee<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Vaibhavi Sutar | AIML Portfolio</title>
-    <style>
-            
-    <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #140021, #2d004d, #ff66e6);
-  color: white;
-  text-align: center;
-}
-
-header {
-  padding: 60px;
-}
-
-        header {
-            padding: 60px;
-        }
-.glow-section {
-  padding: 40px;
-  margin: 40px;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-
-.glow-section:hover {
-  box-shadow: 0 0 25px #ff00cc,
-              0 0 50px #9933ff,
-              0 0 75px #ff66e6;
-  transform: scale(1.03);
-}
-
-    button {
-    padding: 12px 25px;
-    border: none;
-    background: linear-gradient(45deg, #ff66c4, #7c3aed);
-    color: white;
-    font-weight: bold;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 20px #ff66c4;
-}
-}
-
-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px #ffffff;
-}
-        }
-
-        section {
-            padding: 40px;
-        }
-
-
-            
-    .card {
-    background: rgba(255, 182, 230, 0.1);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    }
-
-        footer {
-            padding: 20px;
-            background-color: #020617;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Vaibhavi Sutar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+    <section class="hero">
 
-  <header>
-    <h1>Hi, I'm Vaibhavi Sutar 👩‍💻</h1>
-    <p>BTech AIML Student | AI & Sustainable Tech Innovator</p>
+        <div class="content">
+            <h1>Hi, I'm <span>Vaibhavi Sutar</span> 👋</h1>
+            <p class="subtitle">
+                BTech AIML Student | AI & Sustainable Tech Innovator
+            </p>
 
-    <div style="margin-top:20px;">
-        <button onclick="window.location.href='https://github.com/vaibhavi7029-a11y'">
-          https://vaibhavi7029-a11y.github.io/Vaibhavi-_sutar/resume.pdf
-            
-        </button>
+            <div class="buttons">
+                <a href="#" class="btn glow">My Project</a>
+                <a href="#" class="btn outline">Download Resume</a>
+            </div>
+        </div>
 
-        <button onclick="window.location.href='resume.pdf'" 
-        style="background-color:#22c55e; margin-left:10px;">
-            Download Resume
-        </button>
-    </div>
-  </header>
-<section>
-    <h2>🌍 My Project</h2>
-    <div class="card">
-        <h3>AI Carbon Emission Prediction System</h3>
-        <p>AI-based multi-sensor system for real-time carbon tracking and prediction.</p>
-    </div>
-</section>
+        <div class="info-section">
 
-<section>
-    <h2>🛠 Skills</h2>
-    <p>Python | Machine Learning | IoT | Streamlit | Data Analysis | HTML | CSS</p>
-</section>
+            <div class="project">
+                <h2>AI Carbon Emission Prediction System</h2>
+                <p>
+                    AI-based multi-sensor system for real-time carbon tracking and prediction.
+                </p>
+            </div>
 
-<section>
-    <h2>📬 Contact</h2>
-    <p>Email:vaibhavi7029@gmail.com</p>
-    <p>LinkedIn: https://www.linkedin.com/in/vaibhavi-sutar-720060380</p>
-</section>
+            <div class="skills">
+                <h3>🛠 Skills</h3>
+                <p>Python | Machine Learning | IoT | Streamlit | Data Analysis | HTML | CSS</p>
+            </div>
 
-<footer>
-    <p>© 2026 Vaibhavi Sutar | Built with ❤️</p>
-</footer>
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-</script>
-    <script>
-const buttons = document.querySelectorAll('button');
-buttons.forEach(btn => {
-    btn.addEventListener('mouseenter', () => {
-        btn.style.boxShadow = "0 0 25px #ff66c4, 0 0 50px #7c3aed";
-    });
-    btn.addEventListener('mouseleave', () => {
-        btn.style.boxShadow = "none";
-    });
-});
-</script>
+            <div class="contact">
+                <h3>📬 Contact</h3>
+                <p>Email: vaibhavi7029@gmail.com</p>
+                <p>LinkedIn: https://linkedin.com/in/vaibhavi-sutar</p>
+            </div>
 
-    
+        </div>
+
+    </section>
+
 </body>
 </html>
