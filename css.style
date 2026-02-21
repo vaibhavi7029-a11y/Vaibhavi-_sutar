@@ -1,1 +1,91 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a002f, #2e005f, #4b0082);
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    height: 100vh;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h1 span {
+    color: #ff4dff;
+}
+
+.subtitle {
+    margin: 15px 0 30px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+.glow {
+    background: linear-gradient(45deg, #ff00ff, #7b00ff);
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);
+}
+
+.glow:hover {
+    box-shadow: 0 0 40px rgba(255, 0, 255, 1);
+    transform: scale(1.05);
+}
+
+.outline {
+    border: 2px solid #ff00ff;
+    color: #ff00ff;
+}
+
+.outline:hover {
+    background: #ff00ff;
+    color: white;
+}
+
+.info-section {
+    max-width: 40%;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff4dff;
+}
+
+.skills, .contact {
+    margin-top: 30px;
+}
+
+.skills h3, .contact h3 {
+    margin-bottom: 10px;
+    color: #ff4dff;
+}
